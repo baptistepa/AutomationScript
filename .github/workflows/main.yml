@@ -14,3 +14,5 @@ jobs:
           api-key: ${{ secrets.ziinedevdeploykey }}
           # The path to the .sln file of the solution. Atm only DataMiner Automation Script solutions are supported. E.g ./Example/Script.sln. Required for stages: All and Upload.
           solution-path: ./AutomationScript.sln
+          package-name: 'GetBookingsScript'
+          version: '0.0.0-alpha'
