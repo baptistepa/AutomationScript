@@ -1,0 +1,22 @@
+﻿<DMSScript options="272">
+	<Name>GetBookings</Name>
+	<Description></Description>
+	<Type>Automation</Type>
+	<Author>SKYLINE2\Jan</Author>
+	<CheckSets>FALSE</CheckSets>
+	<Folder>bot</Folder>
+	<Category>12</Category>
+	<ExternalSourceUrl></ExternalSourceUrl>
+	<Protocols>
+	</Protocols>
+	<Memory>
+	</Memory>
+	<Parameters>
+	</Parameters>
+	<Script>
+		<Exe id="2" type="csharp">
+			<Value><![CDATA[[Project:GetBookings_2]]]></Value>
+			<Message></Message>
+		</Exe>
+	</Script>
+</DMSScript>
