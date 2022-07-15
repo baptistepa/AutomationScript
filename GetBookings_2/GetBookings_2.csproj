@@ -40,15 +40,6 @@
     <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AdaptiveCards">
-      <HintPath>..\..\..\..\Users\BaptistePA\Desktop\AdaptiveCards.dll</HintPath>
-      <DataMinerDllPath>C:\Skyline DataMiner\ProtocolScripts\AdaptiveCards.dll</DataMinerDllPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Users\BaptistePA\Desktop\Newtonsoft.Json.dll</HintPath>
-      <DataMinerDllPath>C:\Skyline DataMiner\ProtocolScripts\Newtonsoft.Json.dll</DataMinerDllPath>
-    </Reference>
     <Reference Include="System" />
     <ProjectReference Include="..\AutomationScript_ClassLibrary\AutomationScript_ClassLibrary.csproj">
       <Project>{5DD94A55-F798-4AD3-99B0-FF95C31D51C1}</Project>
