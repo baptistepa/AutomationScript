@@ -58,21 +58,21 @@ namespace Script
 
 			foreach (var booking in bookings)
 			{
-				var bookingInfoFacts = new List<AdaptiveFact>();
+				var infoFacts = new List<AdaptiveFact>();
 
-				bookingInfoFacts.Add(new AdaptiveFact("Id:", booking.Id));
-				bookingInfoFacts.Add(new AdaptiveFact("Name:", booking.Name));
-				bookingInfoFacts.Add(new AdaptiveFact("Start:", booking.Start.ToString()));
-				bookingInfoFacts.Add(new AdaptiveFact("End:", booking.End.ToString()));
+				infoFacts.Add(new AdaptiveFact("Id:", booking.Id));
+				infoFacts.Add(new AdaptiveFact("Name:", booking.Name));
+				infoFacts.Add(new AdaptiveFact("Start:", booking.Start.ToString()));
+				infoFacts.Add(new AdaptiveFact("End:", booking.End.ToString()));
 
 				if (!String.IsNullOrEmpty(booking.CustomerName))
 				{
-					bookingInfoFacts.Add(new AdaptiveFact("Customer Name:", booking.CustomerName));
+					infoFacts.Add(new AdaptiveFact("Customer Name:", booking.CustomerName));
 				}
 
 				bookingFactSets.Add(new AdaptiveFactSet()
 				{
-					Facts = bookingInfoFacts
+					Facts = infoFacts
 				});
 
 			}
